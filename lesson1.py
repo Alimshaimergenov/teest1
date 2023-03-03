@@ -15,7 +15,7 @@ may(cat)
 
 
 class Cat:
-    xвост = True
+    xvost = True
 
     def may(self):
         print(self.name, 'мяукает')
@@ -32,7 +32,7 @@ class Cat:
         return len(self.name)
 
     def x2(self):
-        self.age *= 9
+        self.age *2
         print(self)
 
 
